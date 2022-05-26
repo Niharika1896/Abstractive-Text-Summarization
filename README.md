@@ -1,0 +1,6 @@
+# NYU-ML-Project
+
+This repository consists of the code that we made use of for comparing Transformers and Bi-LSTMs for the problem
+of Abstractive Text Summarization.
+
+Abstractive text summarization focuses on generating a meaningful summary of the given text as opposed to extractive text summarization which concatenates important sentences from the paragraph. In recent years most of the research being done in Abstractive text Summarization has been based on Recurrent Neural Networks, but RNN based approaches don't do well when long sequences are taken into consideration. In this paper, we have explored the state-of-the-art Transformer Neural Networks and have applied them to the problem of solving abstractive text summarization. We propose a Transformer based neural network and then compare the results obtained by Transformers with a Bi-Directional LSTM with Attention for the dataset we have used. Our experimental results show that Transformers perform as well as Bi-LSTMs on the dataset that we have chosen. Transformers however increase the training efficiency and decrease the training times per epoch by a whole lot. 
